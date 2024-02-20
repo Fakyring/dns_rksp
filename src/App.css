@@ -1,0 +1,34 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    align-content: flex-start;
+    width: calc(70% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: rgba(255, 165, 0, 0.6);
+    height: calc(100vh - 20px);
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    align-items: center;
+    height: fit-content;
+}
+
+.item img, .item button {
+    width: 150px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom:
