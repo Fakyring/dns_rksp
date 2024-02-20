@@ -14,4 +14,13 @@ function App() {
                 ))}
             </div>
             <footer>
-                
+                <div className='media'><img src=''/><a target='_blank' href='https://vk.com/fakyring'>VK</a></div>
+                <div className='media'><img src=''/><a>Mail</a></div>
+                <div className='media'><img src=''/><a>MIREA</a></div>
+                <div className='media'><img src=''/><a>Steam</a></div>
+            </footer>
+        </div>
+    );
+}
+
+export default App;

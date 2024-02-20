@@ -31,4 +31,15 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    bottom:
+    bottom: 0;
+    width: 70vw;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    background: rgb(255, 234, 0);
+    filter: blur(5);
+}
+
+footer .media{
+
+}
